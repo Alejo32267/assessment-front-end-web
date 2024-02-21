@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./town.html">About</a></li>
+
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<!-- insert hello world here -->
+
+		<img src="/Users/alejowork/Documents/devmountain/assessment-front-end-web/cat.avif">
+		<ul>
+			<li>Cats on Egypt</li>
+			<li>Curiosities </li>
+			<li>Caracteristics </li>
+		</ul>
+		
+		<h2>Contact Us</h2>
+		<form action="/submit-form" method="post">
+			<label for="how-heard">How did you hear about this website?</label><br>
+			<input type="checkbox" id="google" name="how-heard" value="Google">
+			<label for="google">Google</label><br>
+			<input type="checkbox" id="friend" name="how-heard" value="A friend">
+			<label for="friend">A friend</label><br>
+			<input type="checkbox" id="other" name="how-heard" value="Other">
+			<label for="other">Other</label><br><br>
+			
+			<label for="message">Message:</label><br>
+			<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+			
+			<input type="submit" value="Submit">
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
